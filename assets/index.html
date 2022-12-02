@@ -1,60 +1,139 @@
 <!doctype html>
 <html lang="pt-br">
-
     <head>
-        <meta charset="utf-8">
-        <title>Curso HTML5 online</title>
+        <meta charset="UTF-8">
+        <title>Cafe Fontenebleu</title>
+        
+		<style>
+            html { background-color:#F6F6F6 }
+            
+            main { width:955px; margin:-1px auto 10px; border:1px solid #ddd; background-color:#FFF; font-family:Arial, Helvetica, sans-serif }
+            header { width:955px; height:95px }
+            
+            nav { width: 955px; background-color: #5D240A }
+            nav ul { list-style:none; margin:0; padding:4px }
+            nav ul li { display:inline-block }
+            nav ul li a { font-size: 0.85em; text-decoration: none; color: #FFF; padding: 4px 20px }
+            nav ul li a:hover { background-color: #B4531A }
+            
+            article { float:left; margin:30px 20px; width:600px }
+            
+            article header hgroup h1 {
+                margin:0;
+            }
+            
+            article header hgroup h5 {
+                margin:0; font-size: 1.1em; color:#ccc;
+                font-weight: 100;
+            }
+            
+            aside {
+                float:left;
+                width:230px;
+                border-top:1px solid #CC6633;
+                border-bottom:1px solid #CC6633;
+                padding:40px 10px 0;
+                font-style: italic;
+                margin-right: 20px;
+                margin-bottom: 20px;
+                background: url(../imagens/aspas.gif) no-repeat;
+            }
+            
+            aside p {
+                color:#999;   
+            }
+            
+            
+            #apoio { float:right; width:300px; margin-top:30px }		
+            footer { clear:both; width:700px; margin:0 auto; font-size:0.75em; text-align:center; background-color:#ECECEC; padding:5px }
+            
+            h1, h2, h4 { font-family:Georgia, "Times New Roman", Times, serif; color:#C63; font-style:italic; letter-spacing:-0.05em }
+            h1 { font-size:2.6em; margin:0 5px; }
+            h4 { font-size:1.6em; margin:0 5px; }
+            p, li { font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:0.9em; color:#555; line-height:1.8 }
+        </style>        
+    
     </head>
 
     <body>
-        <p>Amanha iremos começar o projeto</p>
-		<!-- Lista sem ordem --->
-        <ul>
-        	<li>Brasil</li>
-        	<li>Argentina</li>
-            <li>Uruguai</li>
-            <li>Venezuela</li>
-            <li>Catar</li>
-            <li>Holanda</li>
-            <li>Venezuela</li>
-            <li>Catar</li>
-            <li>Holanda</li>
-            <li>Argentina</li>
-            <li>Uruguai</li>
-            <li>Venezuela</li>
-            <li>Catar</li>
-            <li>Holanda</li>
-            <li>Venezuela</li>
-            <li>Catar</li>
-            <li>Holanda</li>
-        </ul>
-        </ul>
         
-		<!-- Lista em ordem --->
-        <ol>
-        	<li>Alonso</li>
-        	<li>Vettel</li>
-            <li>Massa</li>
-            <li>Button</li>
+        <main>
+    
+            <header>
+                <img src="../imagens/topo_principal.jpg">
+            </header>
 
-        </ol>        
+            <nav>
+                <ul>
+                  <li><a href="home.html">Home</a></li>
+                  <li><a href="info.html">Informação</a></li>
+                  <li><a href="special-events.html">Evento Especial</a></li>
+                  <li><a href="location.htm">Localização</a></li>
+                  <li><a href="menu.html">Menu</a></li>
+                  
+                </ul>
+            </nav>
 
-		<!-- Lista descriptiva --->
-        <dl>
-			<dt>Unidade 01</dt>
-            <dd>
-            	Apresentação do curso
-                Melhores softwares para usar neste curso
-            </dd>
-            
-            <dt>Unidade 02</dt>
-            <dd>
-            	Uma breve história do HTML5<br>
-                Especificações do HTML5<br>
-                HTML5 VS HTML4<br>
-            </dd>
+            <article>
+                <header>
+                    <hgroup>
+                        <h1>Restaurante da Familia</h1>
+                        <h5>Os principais especialistas falam sobre o restaurante</h5>
+                    </hgroup>
+                </header>
+                
+                <p>Wanderckley e Kathleen, fundadores e proprietários do restaurante da família de classe mundial de Manaus, têm muitos motivos para comemorar. O Restaurante da Família é o favorito de Manaus há mais de 09 anos, e logo se expandirá para mais locais. A maior comemoração é a recente formatura da Kathleen no aclamado Culinary Institute of America de Nova York e isso significa uma seleção de menu ainda melhor no Restaurante da Família.</p>
+                
+                <aside>
+                    <p>
+                    O que estou fazendo é usar ingredientes amazonenses e combiná-los para criar pratos com um toque moderno que irão revigorar o paladar de nossos clientes, diz Kathleen. 
+                    </p>
+                </aside>
+                
+                <p>Aqueles que apreciam o Restaurante da Família e sua culinária de classe mundial não devem se preocupar - o excelente serviço de mesa, deliciosas especialidades regionais e os favoritos do menu permanecem. Mas as últimas adições de menu de Kathleen são algo que você não quer perder.</p>
+                <p>&quot;A utilização de produtos regionais com o acompanhamento das nossas ervas aromáticas frescas é algo que me apaixona.&quot;</p>
 
-        </dl> 
+                <h4>Aperitivo</h4>
+                <ul>
+                    <li>O bolinho de pirarucu (foto) é uma boa pedida de entrada ou de petisco para acompanhar uma cervejinha.</li>
+                    <li>X-caboclinho, lanche popular na região. A aparência alaranjada da polpa do fruto faz lembrar a cenoura, mas o tucumã é macio e tem o sabor mais neutro: quando fresco, não é azedo, nem amargo. Outros ingredientes podem rechear o sanduíche como queijo coalho, ovo e banana.</li>
+                </ul>
+
+                <h4>Massa</h4>
+                <ul>
+                    <li>Carbonara de camarão com fettuccine e molho feito com gema de ovo, queijo parmesão, creme de leite fresco, pimenta do reino, bacon e finalizado com farofa crocante de panko.</li>
+                    <li>&quot;400g de medalhões de Filé Mignon&quot; envolvidos com bacon com molho funghi acompanhado de fettuccine com molho Alfredo preparado com creme de leite fresco.</li>
+                    <li>Camarões salteados na cebola e alho, com molho leve de abóbora, leite de coco, tomate em cubos, lascas de coco, coentro e cebolinha. Acompanha baião de dois com carne seca, bacon, cebola roxa, queijo coalho, pimenta biquinho e nata fresca.</li>
+                </ul>
+                <h4>Prato principal</h4>
+                <ul>
+                    <li>O Famoso Tambaqui de Banda é assado na brasa e sem espinhas. Acompanha baião de dois ou arroz, farofa ou fainha ovinha e vinagrete.</li>
+                    <li>Tucunaré, espécie de peixe que se torna um ingrediente versátil e muito saboroso, usado em caldeiradas ou servido frito, à milanesa.</li>
+                    <li>Pato no tucupi. Um dos pratos locais favoritos (especialmente durante as férias), o pato servido no molho de tucupi possui sabor exótico. É torrado, ralado e cozido com alho, chicória, manjericão e tucupi e depois servido com arroz com pimenta e um toque de farinha de mandioca.</li>
+                </ul>
+            </article>
+
+            <div id="apoio">
+                             
+                <section class="fotos_apoio">
+                    <h2>Fotos</h2>
+                    <img src="../imagens/pratos (2).jpg" width="275" height="205" />
+                </section>
+                
+                <section class="fotos_apoio">
+                    <h2>Vinhos</h2>
+                    <img src="../imagens/vinhos.jpg" width="275" height="203" />    
+                </section>
+
+                <section class="fotos_apoio">
+                    <h2>Mapa</h2>
+                    <img src="../imagens/mapa_oficial.png" width="275" height="299" />
+                </section>
+            </div>
+
+            <footer>Restaurante da Família - Av. Grande Circular, 187 - Manaus-AM</footer>
+    
+        </main>
     </body>
 
 </html>
