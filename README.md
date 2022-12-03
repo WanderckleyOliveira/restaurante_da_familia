@@ -3,11 +3,11 @@
 
 # Link 
 
- [Click e acesse o site do projeto](https://relogio-digital-copa.netlify.app/)
+ [Click e acesse o site do projeto](https://restaurante-da-familia.netlify.app/)
 
  # 🌎 Apresentação do Projeto
 
-Site de um relogio digital ao vivo, foi criado para testar os conhecimento que vim adquerindo estudando HTLM, CSS e encrementando um pouco de JavaScript que é a linguagem que vou entra de cabeço no momento.
+Site criado para aprensetar um pouco da historia e projeto da empresa da familia, ultilizado para para botar em pratica os conhecimento que vim adquerindo estudando HTLM, CSS. Nisso venho apresentando um pouco da culinaria amazonense.
 
 ## 💻 Technologies & Tools
 
@@ -25,8 +25,7 @@ Site de um relogio digital ao vivo, foi criado para testar os conhecimento que v
  
  - HTML
  - CSS
- - JavaScript 
-
+ 
   ## Redes Sociais
 
 <a href="https://www.linkedin.com/in/wanderckley-oliveira-dev/" alt="Linkedin">
